@@ -11,6 +11,9 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    missingSuspenseWithCSRError: false,
+  },
 }
 
 module.exports = nextConfig 

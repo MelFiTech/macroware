@@ -7,6 +7,12 @@ import Testimonials from '@/components/sections/Testimonials';
 import CTA from '@/components/sections/CTA';
 import Footer from '@/components/layout/Footer';
 
+export const metadata = {
+  icons: {
+    icon: '/favicon.ico',
+  },
+}
+
 export default function Home() {
   return (
     <main className="min-h-screen">
