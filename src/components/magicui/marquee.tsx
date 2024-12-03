@@ -3,12 +3,11 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useRef, useState } from "react";
 
-export interface MarqueeProps {
+export interface MarqueeProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
   className?: string;
   reverse?: boolean;
   pauseOnHover?: boolean;
-  [key: string]: any;
 }
 
 export default function Marquee({
